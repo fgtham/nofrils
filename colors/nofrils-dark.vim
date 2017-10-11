@@ -24,7 +24,7 @@ endif
 set background=dark
 
 " Baseline
-hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+hi Normal term=NONE cterm=NONE ctermfg=250 ctermbg=237 gui=NONE guifg=#eeeeee guibg=#262626
 
 " Faded
 hi ColorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=236 gui=NONE guifg=NONE guibg=#303030
@@ -41,19 +41,19 @@ hi VertSplit term=NONE cterm=NONE ctermfg=black ctermbg=242 gui=NONE guifg=black
 " Highlighted
 hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=236 gui=NONE guifg=NONE guibg=#303030
 hi CursorIM term=NONE cterm=NONE ctermfg=black ctermbg=4 gui=NONE guifg=black guibg=#00FFFF
-hi CursorLineNr term=NONE cterm=NONE ctermfg=NONE ctermbg=black gui=NONE guifg=NONE guibg=black
+hi CursorLineNr term=NONE cterm=NONE ctermfg=250 ctermbg=239 gui=NONE guifg=NONE guibg=black
 hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=236 gui=NONE guifg=NONE guibg=#303030
 hi Cursor term=NONE cterm=NONE ctermfg=black ctermbg=4 gui=NONE guifg=black guibg=#00FFFF
 hi Directory term=NONE cterm=NONE ctermfg=69 ctermbg=NONE gui=NONE guifg=#5F87FF guibg=NONE
-hi ErrorMsg term=NONE cterm=NONE ctermfg=fg ctermbg=52 gui=NONE guifg=fg guibg=#5F0000
-hi Error term=NONE cterm=NONE ctermfg=fg ctermbg=52 gui=NONE guifg=fg guibg=#5F0000
+hi ErrorMsg term=NONE cterm=NONE ctermfg=fg ctermbg=88 gui=NONE guifg=fg guibg=#5F0000
+hi Error term=NONE cterm=NONE ctermfg=fg ctermbg=88 gui=NONE guifg=fg guibg=#5F0000
 hi IncSearch term=NONE cterm=NONE ctermfg=black ctermbg=green gui=NONE guifg=black guibg=green
 hi MatchParen term=NONE cterm=NONE ctermfg=15 ctermbg=4 gui=NONE guifg=#ffffff guibg=#000080
 hi ModeMsg term=NONE cterm=NONE ctermfg=69 ctermbg=NONE gui=NONE guifg=#5F87FF guibg=NONE
 hi MoreMsg term=NONE cterm=NONE ctermfg=69 ctermbg=NONE gui=NONE guifg=#5F87FF guibg=NONE
 hi PmenuSel term=NONE cterm=NONE ctermfg=black ctermbg=13 gui=NONE guifg=black guibg=#FF00FF
 hi Question term=NONE cterm=NONE ctermfg=69 ctermbg=NONE gui=NONE guifg=#5F87FF guibg=NONE
-hi Search term=NONE cterm=NONE ctermfg=black ctermbg=6 gui=NONE guifg=black guibg=#00CDCD
+hi Search term=NONE cterm=underline ctermfg=green ctermbg=NONE gui=NONE guifg=black guibg=#00CDCD
 hi StatusLine term=NONE cterm=NONE ctermfg=black ctermbg=fg gui=NONE guifg=black guibg=fg
 hi Todo term=NONE cterm=NONE ctermfg=10 ctermbg=NONE gui=NONE guifg=#00FF00 guibg=black
 hi WarningMsg term=NONE cterm=NONE ctermfg=fg ctermbg=52 gui=NONE guifg=fg guibg=#5F0000
@@ -99,7 +99,7 @@ hi Directive term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE 
 hi Exception term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Float term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Format term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi Function term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+hi Function term=NONE cterm=NONE ctermfg=255 ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Identifier term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Ignore term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Include term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -114,7 +114,7 @@ hi Repeat term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE gui
 hi SpecialChar term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi SpecialComment term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Special term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi Statement term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+hi Statement term=NONE cterm=NONE ctermfg=255 ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi StorageClass term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Structure term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -132,8 +132,8 @@ hi SneakScope term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guifg=blac
 
 " Helper Functions
 function! NofrilsFocusComments()
-    hi Comment term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
-    hi Normal term=NONE cterm=NONE ctermfg=242 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+    hi Comment term=NONE cterm=NONE ctermfg=255 ctermbg=237 gui=NONE guifg=#eeeeee guibg=#262626
+    hi Normal term=NONE cterm=NONE ctermfg=242 ctermbg=237 gui=NONE guifg=#eeeeee guibg=#262626
     hi LineNr term=NONE cterm=NONE ctermfg=8 ctermbg=bg gui=NONE guifg=#808080 guibg=bg
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -144,8 +144,8 @@ function! NofrilsFocusComments()
 endfunction
 
 function! NofrilsFocusCode()
-    hi Comment term=NONE cterm=NONE ctermfg=242 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
-    hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+    hi Comment term=NONE cterm=NONE ctermfg=242 ctermbg=237 gui=NONE guifg=#eeeeee guibg=#262626
+    hi Normal term=NONE cterm=NONE ctermfg=250 ctermbg=237 gui=NONE guifg=#eeeeee guibg=#262626
     hi LineNr term=NONE cterm=NONE ctermfg=8 ctermbg=bg gui=NONE guifg=#808080 guibg=bg
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -158,8 +158,8 @@ endfunction
 
 function! NofrilsNormal()
     hi Comment term=NONE cterm=NONE ctermfg=242 ctermbg=NONE gui=NONE guifg=#6C6C6C guibg=NONE
-    hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
-    hi LineNr term=NONE cterm=NONE ctermfg=8 ctermbg=bg gui=NONE guifg=#808080 guibg=bg
+    hi Normal term=NONE cterm=NONE ctermfg=250 ctermbg=237 gui=NONE guifg=#eeeeee guibg=#262626
+    hi LineNr term=NONE cterm=NONE ctermfg=241 ctermbg=235 gui=NONE guifg=#808080 guibg=bg
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
