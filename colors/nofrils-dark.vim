@@ -130,6 +130,13 @@ hi SneakTarget term=NONE cterm=NONE ctermfg=black ctermbg=195 gui=NONE guifg=bla
 hi SneakLabelTarget term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guifg=black guibg=#d7afff
 hi SneakScope term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guifg=black guibg=#d7afff
 
+" Vim Help
+hi helpHyperTextJump cterm=underline
+hi helpHyperTextEntry ctermfg=white
+hi helpWarning ctermfg=black ctermbg=yellow
+hi link helpExample Ignored
+hi link helpCommand Ignored
+
 " Helper Functions
 function! NofrilsFocusComments()
     hi Comment term=NONE cterm=NONE ctermfg=255 ctermbg=237 gui=NONE guifg=#eeeeee guibg=#262626
